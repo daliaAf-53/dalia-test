@@ -12,12 +12,12 @@
 <body >
    <div class="father">
     <div class="bla1">
-        <nav class="navbar navbar-expand-lg pt-4 pb-3 fixed-top" id="navbar" style="background-color:rgba(0, 0, 0, 0.548);">
+        <nav class="navbar navbar-expand-lg pt-4 pb-3 fixed-top" id="navbar">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><h3 class="text-white"
-                 style="font-weight: 700;">Append<span class="text-danger">.</span></h3>
-                </a>
-              <button class="navbar-toggler bg-danger text-white" type="button"
+              <h2 id="hh2"
+                 style="font-weight: 700;color: white;">Append<span class="text-danger">.</span></h2>
+
+              <button onclick="but5()" class="navbar-toggler bg-danger text-white" type="button"
                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=" navbar-toggler-icon ">
@@ -27,8 +27,8 @@
               <div class="bla">
                 <div class=" collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="color: white !important"><b>Home</b></a>
+                      <li class="nav-item" >
+                        <a class="nav-link active" aria-current="page" href="#" ><b>Home</b></a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active " aria-current="page" href="#"><b>About</b></a>
@@ -1060,7 +1060,7 @@
    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/purecounter.js"></script>
-    <script src="js/purecounter_vanilla.js"></script>
+    <script src="js/purecounter_vanilla.js" ></script>
    
 <script>
   window.onscroll =function(){
@@ -1079,7 +1079,14 @@ filesizing: true,
 selector: ".filesizecount",
  pulse: 2,
  });
- 
+ function but5(){
+  let y=document.getElementById('navbar')
+   y.style.backgroundColor=('white')
+   let m =document.getElementById('hh2')
+   m.style.color=('black')
+   
+ }
+
 </script>
 
 </body>
