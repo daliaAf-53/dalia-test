@@ -1,0 +1,374 @@
+.father .bla1 .bla{
+   width: 75%;
+    display: flex;
+    justify-content:space-between ;
+    
+}
+.father3 .bla1 .navbar-toggler{
+    outline: none;
+}
+.father .bla1 .bla .nav-item{
+    padding-right: 1.5rem;
+}
+.father .bla1 .bla .nav-link{
+    color: rgb(207, 206, 203) !important;
+    transition: 0.3s
+}
+.father .bla1 .bla .nav-link:hover{
+    color: white !important;
+    transition: 0.3s
+}
+
+.father .bla1 .navbar{
+ right: 0;
+left: 0;
+
+}
+
+.father{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.father .bla1{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+   background-color: rgba(7, 7, 7,0.5)
+}
+.father .bla1 .bla2{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    color: white;
+   
+}
+.father .bla1 .bla2 .bla3{
+    background-color: white;
+    width: 75%;
+    padding:13px 0 13px 5px;
+    border-radius: 10px;
+}
+.father .bla1 .bla2 .bla3 .input1{
+    border: none;
+}
+.father2 img{
+    filter:grayscale(100);
+    opacity: 0.7;
+    transition: 0.3s
+}
+.father2 img:hover{
+    filter: grayscale(0);
+    opacity: 1;
+    transition: 0.3s
+}
+
+.father3 .but{
+    background-color: #fadfdf ;
+    color:#e84545;
+    border: none;
+    
+}
+.father3 .bla5 i{
+    width: 30%;
+    font-size:2rem;
+    background-color: #fcf3f3 ;
+    border-radius: 4rem;
+    margin-top: 1rem;
+    transition: 1s
+
+}
+.father3 .card{
+border-radius: 1rem;
+padding: 1rem;
+}
+.father3 h1,h3{
+    color: #32353a;
+}
+.father3 .card:hover i{
+    background: #e84545;
+    color: white !important;
+    transition: 1s
+}
+ .father4{
+    height: 60vh;
+     width: 100%;
+     position: relative;
+     background-image: url(../img/stats-bg.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+ }
+ .father4 .pos{
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 60vh;
+     background-color: rgba(7, 7, 7,0.7)
+ }
+ .father4 h1,h5{
+     text-align: center;
+     color: white;
+     font-weight: 700;
+ }
+ .father4 h1{
+     font-size: 3rem;
+ }
+ .father4 h5{
+     color: #98989b;
+ }
+ .father5 h2{
+     border-top: 2px solid #d10303;
+     width: 40px;
+ }
+ .father5 .bla7{
+     width: 22px;
+     height: 17%;
+     margin-top: 2rem;
+     background-color: #f58282;
+     border-radius: 4rem;
+ }
+ .father5 .bla6{
+     font-size: 3rem;
+     color:  rgb(104, 103, 103);
+     position: absolute;
+        
+ }
+ .father5 h4{
+     font-weight: 700;
+     color:  rgb(65, 64, 64);
+     transition: 1s;
+ }
+ .father5 .bla8:hover h4{
+     color: #e44242;
+     transition: 1s;
+ }
+ .father6 h3{
+    border-top: 2px solid #d10303;
+    width: 40px;
+ }
+ .father6 .bla9{
+     display: flex;
+     align-items: center;
+     justify-content: end;
+ }
+ .father6 .imj{
+    position: absolute;
+    margin-top: 6rem;
+    border: 5px solid white;
+ }
+ .father7 i{
+     color: rgb(4, 182, 4);
+     font-size: 20px;
+ }
+
+ .father8 h3{
+    border-top: 2px solid #d10303;
+    width: 40px;
+ }
+ .father8 .bla10{
+     display: flex;
+ }
+ .father8 .bla10 button{
+     
+     padding: 2px 15px 2px 15px;
+     border: none;
+     background-color: white;
+     font-weight: 500;
+     border-radius: 30px;
+     
+ }
+ .father8 .bla10 button:hover{
+    background-color: #dd2c2c;
+    border-radius: 30px;
+    color: white;
+ }
+ .father9 h4{
+    border-top: 2px solid #d10303;
+    width: 40px;
+ }
+ .father9 i{
+     color: white;
+     font-size: 2rem;
+ }
+ .father9 .bla11 span{
+     color: rgb(4, 182, 4);
+     font-size: 20px
+
+ }
+ .father9 .bla12 span{
+    color: rgb(94, 95, 94);
+    font-size: 20px
+}
+.father9 .bla12 p{
+    text-decoration: line-through;
+    color:rgb(94, 95, 94);
+}
+.father9 .but2 button{
+    border: 1px solid gray;
+    font-weight: 500;
+    color: gray
+}
+ .bla13{
+    border: 4px solid  #f82003;
+    border-radius: 1rem;
+}
+.bla14{
+    border-radius: 1rem;
+}
+.father9 .but3 button{
+    border: 1px solid rgb(216, 60, 12);
+    font-weight: 500;
+    background-color: #dd2c2c;;
+    color: white;
+}
+.father10 h2{
+    border-top: 2px solid #d10303;
+    width: 40px;
+}
+.father10 .bla15{
+    position: absolute;
+     display:flex;
+     justify-content: center ;
+     align-items: center;
+     width: 50%;
+     height: 100%;
+     background-color: rgba(8, 8, 8, 0.7);
+      transition: 1s;
+      z-index: -1;
+      border: 3px solid white;
+}
+ .bla16 :hover .bla15{
+    z-index: 1;
+    transition: 0.5s;
+   
+}
+
+.father10 .bla15 i{
+    color: white;
+    font-size: 1.2rem;
+}
+.father10 .bla15 i:hover{
+    color: #c23636;
+}
+
+.father11 h2{
+    border-top: 2px solid #d10303;
+    width: 40px;
+}
+.father12 h4{
+    border-top: 2px solid #d10303;
+    width: 40px;
+}
+.father12 i{
+    font-size: 2.5rem;
+    color: #e40606;
+}
+.father12 input{
+    padding: 10px;
+    border: 1px solid rgb(75, 74, 74)
+}
+.father15 i{
+color:  #444444;
+margin-right: 3px;
+border: 2px solid #444444;
+font-size: 1rem;
+border-radius: 2rem;
+}
+.father15 i:hover{
+    border: 2px solid #d10303;
+    color: #d10303;
+}
+.father15 ul li{
+    list-style: none;
+    margin-top: 5px;
+    
+}
+.father15 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.father15 ul li a:hover{
+    color: #d10303;
+    font-weight: 600
+}
+input{
+    outline: none
+}
+.father16 .bla17{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/cta-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+.father16 .bla18{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    background-color: rgba(7, 7, 7,0.5);
+    right: 0;
+}
+.father16 .but4:hover{
+background-color: #c23636
+}
+.father17 h4{
+    font-weight: 700;
+    margin-top: 3px
+}
+.father17 h6{
+    color: #575656
+}
+.bb{
+    background-color: rgb(173, 6, 6) !important;
+    width: 10px  !important;
+    height: 10px  !important;
+     border: none  !important;
+    border-radius: 5rem !important;
+}
+.accordion-button{
+  box-shadow: none !important;
+background-color: white !important;
+
+}
+.accordion-button:hover{
+    color: red !important;
+}
+.accordion-button:not(.collapsed){
+    color:red !important
+
+}
+.accordion-button:not(.collapsed)::after{
+background-image: url(../img/124-1245598_red-down-arrow-png.png) !important;
+
+    
+}
+.scroll{
+    background-color: white !important;
+   
+}
+.scroll .navbar-brand h3{
+    color: black !important;
+    font-weight: 700;
+}
+.scroll .nav-link b{
+    color: black !important;
+}
+.scroll .nav-link b:hover{
+    color: #dc3545 !important;
+}
+.navbar-toggler-icon{
+    background-image: none !important;
+}
+
+
