@@ -108,10 +108,10 @@ padding: 1rem;
      top: 0;
      bottom: 0;
      display: flex;
-     justify-content: center;
-     align-items: center;
      width: 100%;
      height: 60vh;
+     justify-content: center;
+     align-items: center;
      background-color: rgba(7, 7, 7,0.7)
  }
  .father4 h1,h5{
@@ -130,8 +130,8 @@ padding: 1rem;
      width: 40px;
  }
  .father5 .bla7{
-     width: 21px;
-     height: 15%;
+     width: 18px;
+    height: 2.9vh;
      margin-top: 2rem;
      background-color: #f58282;
      border-radius: 4rem;
